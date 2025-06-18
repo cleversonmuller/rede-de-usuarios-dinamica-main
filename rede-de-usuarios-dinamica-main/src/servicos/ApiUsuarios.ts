@@ -34,7 +34,7 @@ clienteApi.interceptors.response.use(
     console.error('❌ Erro na resposta:', erro);
     return Promise.reject(erro);
   }
-);
+); 
 
 export interface DadosUsuario {
   id: number;
