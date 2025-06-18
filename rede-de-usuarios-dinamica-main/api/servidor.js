@@ -125,3 +125,4 @@ aplicacao.listen(porta, () => {
   console.log(`   GET /api/usuarios/:id - Dados detalhados do usuário`);
   console.log(`   GET /health - Health check`);
 });
+ 
