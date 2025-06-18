@@ -28,7 +28,7 @@ clienteApi.interceptors.request.use(
 clienteApi.interceptors.response.use(
   (resposta) => {
     console.log(`✅ Resposta recebida de: ${resposta.config.url}`);
-    return resposta;
+    return resposta; 
   },
   (erro) => {
     console.error('❌ Erro na resposta:', erro);
